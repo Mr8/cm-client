@@ -18,8 +18,8 @@ usage() {
     echo "[-h|--help] it's me"
     echo "[-v|--verbose] show verbose infomation"
     echo "example:"
-    echo "mysql_client.sh -s http://113.107.161.240:3000 -p 4201 --token xxxxx --action create_instance --debug --verbose"
-    echo "mysql_client.sh -s http://113.107.161.240:3000 -p 4201 --token xxxxx --action show_master_status --debug"
+    echo "mysql_client.sh -s http://1.1.1.1:1000 -p 4201 --token xxxxx --action create_instance --debug --verbose"
+    echo "mysql_client.sh -s http://1.1.1.1:1000 -p 4201 --token xxxxx --action show_master_status --debug"
 }
 
 if [[ $# -lt 1 ]]; then
